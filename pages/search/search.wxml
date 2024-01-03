@@ -1,0 +1,60 @@
+<navigation-bar title="搜索" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view>
+    <van-search value="东野圭吾" placeholder="请输入搜索关键词" bind:search="onSearch" />
+    <van-row gutter="10">
+        <van-col span="12">
+            <view style="display: flex;">
+                <view style="padding: 10px 4px 0 14px;">
+                    <image src="{{ imageURL }}" style="width: 80px;" mode="widthFix"></image>
+                </view>
+                <view style="padding: 10px 4px 4px 4px;">
+                    <view style="font-weight: 700; font-size: 14px;">哈利波特典藏版本2024</view>
+                    <view style=" font-size: 12px; padding-top: 2px; color: #929292;">描述信息123123123</view>
+                </view>
+            </view>
+        </van-col>
+
+        <van-col span="12">
+
+            <view style="display: flex;">
+                <view style="padding: 10px 4px 0 4px;">
+                    <image src="{{ imageURL }}" style="width: 80px;" mode="widthFix"></image>
+                </view>
+                <view style="padding: 10px 4px 4px 4px;">
+                    <view style="font-weight: 700; font-size: 14px;">哈利波特典藏版本2024</view>
+                    <view style=" font-size: 12px; padding-top: 2px; color: #929292;">描述信息123123123</view>
+                </view>
+            </view>
+
+        </van-col>
+    </van-row>
+
+
+    <van-row gutter="10">
+        <van-col span="12">
+            <view style="display: flex;">
+                <view style="padding: 10px 4px 0 14px;">
+                    <image src="{{ imageURL }}" style="width: 80px;" mode="widthFix"></image>
+                </view>
+                <view style="padding: 10px 4px 4px 4px;">
+                    <view style="font-weight: 700; font-size: 14px;">哈利波特典藏版本2024</view>
+                    <view style=" font-size: 12px; padding-top: 2px; color: #929292;">描述信息123123123</view>
+                </view>
+            </view>
+        </van-col>
+
+        <van-col span="12">
+
+            <view style="display: flex;">
+                <view style="padding: 10px 6px 0 0px;">
+                    <image src="{{ imageURL }}" style="width: 80px;" mode="widthFix"></image>
+                </view>
+                <view style="padding: 10px 4px 4px 4px;">
+                    <view style="font-weight: 700; font-size: 14px;">哈利波特典藏版本2024</view>
+                    <view style=" font-size: 12px; padding-top: 2px; color: #929292;">描述信息123123123</view>
+                </view>
+            </view>
+
+        </van-col>
+    </van-row>
+</view>

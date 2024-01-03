@@ -1,0 +1,9 @@
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    Weixin
+    <van-button type="primary">按钮</van-button>
+  </view>
+</scroll-view>
+
+
